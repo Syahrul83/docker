@@ -25,6 +25,7 @@ Change the values of the `.env.` file for the Laravel project to match the `.env
 
 ##### Run the project
 > docker compose up --build --detach
+ docker compose exec app bash     //buka dari image docker
 
 ----
 ##### If you are developing locally then
@@ -32,8 +33,7 @@ Change the values of the `.env.` file for the Laravel project to match the `.env
 Run migrations
 > php artisan migrate
 
-  docker compose exec app bash     //buka dari image docker
-
+ 
 
 Run the app
 > php artisan serve
